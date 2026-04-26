@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="MIT"
+
+[[mods]]
+    modId="performancebooster"
+    version="1.0.0"
+    displayName="Performance Booster"
+    description='''
+        System optimization and FPS boost for Minecraft!
+        Reduces lag, optimizes rendering, particles, and entity updates.
+    '''
+    authors="moyuan"
+
+[[dependencies.performancebooster]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.performancebooster]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20,1.22)"
+    ordering="NONE"
+    side="BOTH"
